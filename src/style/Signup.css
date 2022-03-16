@@ -43,9 +43,10 @@ form .txt_field{
 }
 .txt_field input{
   width: 100%;
-  padding: 0 5px;
   height: 40px;
-  font-size: 16px;
+  padding-left: 45px;
+
+  font-size: 17px;
   border: none;
   background: none;
   outline: none;
@@ -109,6 +110,7 @@ input[type="submit"]{
 .eye{
   position: absolute;
   color: #4606ED;
-  margin-left: -345px;
-  margin-top: 9px;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
 }
