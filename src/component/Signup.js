@@ -1,10 +1,11 @@
 import React from 'react'
-import { Router, useNavigate } from 'react-router'
+// import {  useNavigate } from 'react-router'
 import "../style/Signup.css"
+import {Link} from 'react-router-dom'
 
 
 const Signup = () => {
-  const navigate=useNavigate;
+  // const navigate=useNavigate;
   return (
     <div className="center">
     <h1>Sign Up</h1>
