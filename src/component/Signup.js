@@ -26,7 +26,7 @@ const Signup = () => {
 
       </div>
       <div className="cpr">
-        <input type="checkbox" id="chk" name="chk" value="term" checked/>
+        <input type="checkbox" id="chk" name="chk" value="term" />
         <label for="chk"> I read and agree to </label><Link to="" > Terms & Conditions</Link><br/>
       </div>
       <input type="submit" value="CREATE ACCOUNT"/>

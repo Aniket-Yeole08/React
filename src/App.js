@@ -1,28 +1,28 @@
-// import logo from './logo.svg';
 import './App.css';
 import Login from './component/Login';
 import Signup from './component/Signup';
 import {
   BrowserRouter as Router,
   Routes, 
-  Route,
-  signup_link
+  Route
 } from "react-router-dom";
-import { Navbar } from './component/Navbar';
+import Navbar from './component/Navbar';
 
 
 
 function App() {
   return (
-    // <Login/>
-    // <Signup/>
+    <Login/>,
     <Router>
+      
+      {/* <Signup/> */}
       <Navbar></Navbar>
       <Routes>
-        <Route path="/Login" element={<Login/>}></Route>
-        <Route path="/Signup" element={<Signup/>}></Route>
+        <Route exact path ="/Login" element={<Login/>}></Route>
+        <Route exact path="/Signup" element={<Signup/>}></Route>
       </Routes>
     </Router>
+
   );
 }
 
