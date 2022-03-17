@@ -19,7 +19,7 @@ const Login = () => {
       </div>
       <input type="submit" value="LOGIN"/>
       <div className="signup_link">
-        Don't have an account? <Link to="/Login">Sign Up</Link>
+        Don't have an account? <Link to="/Signup">Sign Up</Link>
       </div>
       <div className="cpr">
           <p>&#169 BlastoServe</p>
