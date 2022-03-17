@@ -7,7 +7,8 @@ import {Link} from 'react-router-dom'
 const Signup = () => {
   // const navigate=useNavigate;
   return (
-    <div className="center">
+    <div className='bg'>
+      <div className="center">
     <h1>Sign Up</h1>
     <form method="post">
       <div className="txt_field">
@@ -40,6 +41,7 @@ const Signup = () => {
       </div>
     </form>
   </div>
+    </div>
   )
   
 }

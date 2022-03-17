@@ -8,9 +8,13 @@
 body{
   margin: 0;
   padding: 0;
-  background-color: #2691d9;
+  background-color: white  ;
   height: 100vh;
   overflow: hidden;
+}
+.backgr{
+  background-color: #f4f4f6;
+  height: 100vh;
 }
 .container{
   position: absolute;
@@ -18,7 +22,7 @@ body{
   left: 50%;
   transform: translate(-50%, -50%);
   width: 400px;
-  background-color: white;
+  background: white;
   border-radius: 10px;
   box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
 }

@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import Login from './component/Login';
 import Signup from './component/Signup';
@@ -6,20 +7,22 @@ import {
   Routes, 
   Route
 } from "react-router-dom";
-import Navbar from './component/Navbar';
+import Home from './Pages/Home';
+import Navbar from './component/Navbar/';
+import About from './Pages/About';
 
 
 
 function App() {
   return (
-    <Login/>,
+   
     <Router>
-      
-      {/* <Signup/> */}
-      <Navbar></Navbar>
+      <Navbar />
       <Routes>
-        <Route exact path ="/Login" element={<Login/>}></Route>
-        <Route exact path="/Signup" element={<Signup/>}></Route>
+        <Route exact path="/Home" element={<Home/>}/>
+        <Route exact path="/About" element={<About/>}/>
+        <Route exact path="/Signup" element={<Signup/>}/>
+        <Route exact path='/Login' element={<Login/>}/>
       </Routes>
     </Router>
 

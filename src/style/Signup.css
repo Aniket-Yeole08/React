@@ -8,9 +8,13 @@
 body{
   margin: 0;
   padding: 0;
-  background-color: #9633FF;
+  background-color: white;
   height: 100vh;
   overflow: hidden;
+}
+.bg{
+  background-color: #9633FF;
+  height: 100vh;
 }
 .center{
   position: absolute;
