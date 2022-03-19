@@ -1,3 +1,7 @@
 .colorchange{
-    background-color: darkblue !important;
+    background-color: #247ba0 !important;
+}
+.colorchange img{
+    height: 50px;
+    width: 100px;
 }

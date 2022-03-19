@@ -1,5 +1,6 @@
 
 import React from 'react';
+import "E:/Blastoserve/TASK/React/src/style/Navbar.css";
 import {
   Nav,
   NavLink,
@@ -7,14 +8,15 @@ import {
   NavMenu,
   NavBtn,
   NavBtnLink
+  
 } from './NavbarElements';
-import "E:/Blastoserve/TASK/React/src/style/Navbar.css";
+
 const Navbar = () => {
   return (
     <>
       <Nav className='colorchange'>
         <NavLink to='/'>
-          {/* <img src={require('../../images/logo.svg')} alt='logo' /> */}
+          <img  src={require('../../images/blsdtlogo.png')} alt='logo' />
         </NavLink>
         <Bars />
         <NavMenu>

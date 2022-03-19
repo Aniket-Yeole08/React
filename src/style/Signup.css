@@ -13,7 +13,8 @@ body{
   overflow: hidden;
 }
 .bg{
-  background-color: #9633FF;
+  /* background-color: #9633FF; */
+  background-color: #f4f4f6;
   height: 100vh;
 }
 .center{
@@ -24,14 +25,15 @@ body{
   width: 500px;
   background: white;
   border-radius: 30px;
-  box-shadow: 15px 15px 15px #7521DB;
+  /* box-shadow: 15px 15px 15px #7521DB; */
+  box-shadow: 5px 5px 20px #f4f4f6;
   padding: 30px;
 }
 .center h1{
   text-align: center;
   padding: 20px 0;
   font-weight: 900;
-  color: black;
+  color: #247ba0;
 }
 
 .center form{
@@ -69,7 +71,8 @@ input[type="submit"]{
   width: 50%;
   height: 40px;
   border: 1px solid;
-  background: linear-gradient(to right,#8B29E0,#4305EE);
+  /* background: linear-gradient(to right,#8B29E0,#4305EE); */
+  background-color: #ff1654;
   border-radius: 30px;
   font-size: 14px;
   color: #e9f4fb;
@@ -80,6 +83,9 @@ input[type="submit"]{
   margin-left: 25%;
   
 } 
+input[type= "submit"]:hover{
+  background: #ff1654;                                             
+}
 #chk{
     color: #9633FF;
    
